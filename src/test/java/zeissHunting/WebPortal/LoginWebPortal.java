@@ -41,7 +41,7 @@ public class LoginWebPortal extends Base {
 		signInPage.getUserName().sendKeys(username);
 		signInPage.getPassword().sendKeys(password);
 		signInPage.signIn().click();
-		Thread.sleep(10000);
+		Thread.sleep(15000);
 		String URL = driver.getCurrentUrl();
 		Assert.assertEquals(URL, "https://hunting.zeiss.com/dashboard");
 
