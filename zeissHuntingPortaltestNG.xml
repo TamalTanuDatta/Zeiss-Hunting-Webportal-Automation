@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="zeissHunting.WebPortal.Listeners"/>
+</listeners>
+	<test thread-count="5" name="Zeiss Id Creation Testing">
+		<classes>
+			<class name="zeissHunting.WebPortal.ZeissIdRegistrationPage" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Logging into WebPortal Dashboard">
+		<classes>
+			<class name="zeissHunting.WebPortal.LoginWebPortal" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="WebPortal Unit Test">
+		<classes>
+			<class name="zeissHunting.WebPortal.WebportalUnitTest" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Validating Title">
+		<classes>
+			<class name="zeissHunting.WebPortal.ValidateTitle" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

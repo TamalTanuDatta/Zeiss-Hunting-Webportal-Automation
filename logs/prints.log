@@ -1,0 +1,8 @@
+16:36:50.936 [main] INFO  resources.Base - Created Zeiss ID for User
+16:37:18.814 [main] INFO  resources.Base - driver is initialized
+16:37:31.598 [main] INFO  resources.Base - Navigate to Homepage
+16:37:31.932 [main] INFO  resources.Base - Successfully Validated Title WebPortal
+16:40:52.811 [main] INFO  resources.Base - Created Zeiss ID for User
+16:41:19.330 [main] INFO  resources.Base - driver is initialized
+16:41:36.277 [main] INFO  resources.Base - Navigate to Homepage
+16:41:36.683 [main] INFO  resources.Base - Successfully Validated Title WebPortal
